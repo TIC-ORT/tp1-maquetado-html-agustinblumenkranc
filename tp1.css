@@ -1,40 +1,50 @@
-
-body{
+body {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
-}
-
-.General{
+  }
+  
+  .General {
     width: 90%;
-    height: 100vw;
+    height: 100vh;
     display: flex;
-    align-content: center;
-}
-
-
-.mitad{
+  }
+  
+  .mitad {
     display: flex;
-    flex-direction: row;
-}
-
-
-.Claro{
-    width: 70%;
-    height: 100vw;
-    background-color: whitesmoke;
     justify-content: center;
-    padding: 0px;
-}
-
-.Oscuro{
+    align-items: center;
+  }
+  
+  .Claro {
+    width: 70%;
+    height: 100vh;
+    background-color: whitesmoke;
+  }
+  
+.Oscuro {
     width: 30%;
-    height: 100vw;
-    background-color: black;
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.Lineas{
-    margin-top: 40px;
-    width: 80%;
-    height: 1%;
-    background-color: black;
+  
+.Cuadrados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    gap: 30px;
 }
+  
+.Cuadrado {
+    width: 60%;
+    height: 30%;
+    background-color: #ccc;
+}
+  
