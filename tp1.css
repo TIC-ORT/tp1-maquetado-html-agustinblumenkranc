@@ -4,68 +4,68 @@ body {
     display: flex;
     justify-content: center;
   }
-  
-  .General {
-    width: 90%;
-    height: 100vh;
+
+  .Todo{
     display: flex;
-  }
-  
-  .mitad {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-  }
-  
-  .Claro {
-    width: 70%;
-    height: 100vh;
-    background-color: whitesmoke;
   }
 
-  .Lineas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    height: 15%;
-    gap: 45px;
-}
-  
-.Linea {
-    width: 100%;
-    height: 20%;
-    background-color: darkgrey;
-}
-  
-.Oscuro {
-    width: 30%;
-    height: 100vh;
-    background-color: lightgrey;
+  .CuadradoLinea {
+    width: 100vw;
+    height: 40vh;
+    background-color: orange;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-  
-.Cuadrados {
+    flex-direction: row;
+    gap: 100px;
+  }  
+
+  .Cuadrado{
+    width: 20%;
+    height: 80%;
+    background-color: orangered;
+  }
+
+  .Lineas{
+    width: 50%;
+    height: 100%;
+    gap: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 80%;
-    height: 95%;
-    gap: 45px;
-}
+    margin-top: 40px;
+  }
+
+  .Linearda{
+    width: 50%;
+    height: 15%;
+    background-color: orangered;
+  }
+
+  .Linea1{
+    width: 100%;
+    height: 5%;
+    background-color: white;
+  }
+
+  .Linea2{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(241, 240, 240);
+  }
+
+  .Linea3{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(255, 255, 255);
+  }
   
-.Cuadrado {
-    width: 60%;
-    height: 50%;
-    background-color: #ccc;
-}
+  .Linea4{
+    width: 50%;
+    height: 5%;
+    background-color: rgb(255, 255, 255);
+  }
   
-.Video{
-  width: 80%;
-  height: 65%;
-  background-color: black;
-  margin-top: 40px;
-}
+  
+  
+
