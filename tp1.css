@@ -1,71 +1,92 @@
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
 
-  .Todo{
-    display: flex;
-    flex-direction: column;
-  }
+.Todo {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
 
-  .CuadradoLinea {
-    width: 100vw;
-    height: 40vh;
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 100px;
-  }  
+.CuadradoLinea {
+  width: 100vw;
+  height: 40vh;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+}
 
-  .Cuadrado{
-    width: 20%;
-    height: 80%;
-    background-color: orangered;
-  }
+.Cuadrado {
+  width: 20%;
+  height: 80%;
+  background-color: orangered;
+}
 
-  .Lineas{
-    width: 50%;
-    height: 100%;
-    gap: 30px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-  }
+.Lineas {
+  width: 50%;
+  height: 100%;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
 
-  .Linearda{
-    width: 50%;
-    height: 15%;
-    background-color: orangered;
-  }
+.Linearda {
+  width: 50%;
+  height: 15%;
+  background-color: orangered;
+}
 
-  .Linea1{
-    width: 100%;
-    height: 5%;
-    background-color: white;
-  }
+.Linea1 {
+  width: 100%;
+  height: 5%;
+  background-color: white;
+}
 
-  .Linea2{
-    width: 100%;
-    height: 5%;
-    background-color: rgb(241, 240, 240);
-  }
+.Linea2 {
+  width: 100%;
+  height: 5%;
+  background-color: rgb(241, 240, 240);
+}
 
-  .Linea3{
-    width: 100%;
-    height: 5%;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .Linea4{
-    width: 50%;
-    height: 5%;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  
-  
+.Linea3 {
+  width: 100%;
+  height: 5%;
+  background-color: rgb(255, 255, 255);
+}
 
+.Linea4 {
+  width: 50%;
+  height: 5%;
+  background-color: rgb(255, 255, 255);
+}
+
+.Blanco {
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(3, 17vw);  /* 3 columnas de 17vw de ancho */
+  grid-template-rows: repeat(2, 17vw);     /* 2 filas de 17vw de alto */
+  gap: 8vw;
+  justify-content: center;
+}
+
+.Cuadrados {
+  width: 100%;
+  height: 100%;
+  background-color: #4CAF50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Interno {
+  width: 60%;
+  height: 60%;
+  background-color: white;
+}
