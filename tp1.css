@@ -68,7 +68,6 @@ body {
 }
 
 .Blanco {
-  height: 40vh;
   display: grid;
   grid-template-columns: repeat(3, 17vw);  /* 3 columnas de 17vw de ancho */
   grid-template-rows: repeat(2, 17vw);     /* 2 filas de 17vw de alto */
@@ -101,4 +100,11 @@ body {
   height: 20%;
   background-color: black;
   justify-content: flex-start;
+}
+
+.Gris{
+  height: 20vh;
+  width: 100vw;
+  background-color: grey;
+  
 }
