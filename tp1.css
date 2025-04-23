@@ -123,7 +123,7 @@ body {
 }
 
 .CuadradoSuperior {
-  background-color: #cccccc;
+  background-color:#cccccc;
   height: 5vh;
   width: 20vw;
 }
@@ -131,12 +131,86 @@ body {
 .LineaColumna {
   width: 20vw;
   height: 1.5vh;
-  background-color: #cccccc;
+  background-color: white;
 }
 
 .LineaColumna3 {
   width: 15vw;
   height: 1.5vh;
-  background-color: #cccccc;
+  background-color: white;
   align-self: center;
+}
+
+/* Consulte a gpt, lo que entendi fue esto: Cada cuadrado tiene un número  en el orden que se hizo, entonces se llama a este número y que "item" de este cuadrado se quiere modificar, como un div cualquiera, básicamente permite modificar las propiedades de algo específico indicando que queremos modificar.*/
+
+.Cuadrados:nth-child(1) {
+  background-color: #c9edf0;
+}
+
+.Cuadrados:nth-child(1) .Rect {
+  background-color: #b2e2e6;
+}
+
+.Cuadrados:nth-child(1) .Interno {
+  background-color: #a0d9e1;
+}
+
+.Cuadrados:nth-child(2) {
+  background-color: #fda48b;
+}
+
+.Cuadrados:nth-child(2) .Rect {
+  background-color: #fa9074;
+}
+
+.Cuadrados:nth-child(2) .Interno {
+  background-color: #f37d60;
+}
+
+.Cuadrados:nth-child(3) {
+  background-color: #fdd674;
+}
+
+.Cuadrados:nth-child(3) .Rect {
+  background-color: #fcd062;
+}
+
+.Cuadrados:nth-child(3) .Interno {
+  background-color: #fbc84f;
+}
+
+.Cuadrados:nth-child(4) {
+  background-color: #fdd674;
+}
+
+.Cuadrados:nth-child(4) .Rect {
+  background-color: #fcd062;
+}
+
+.Cuadrados:nth-child(4) .Interno {
+  background-color: #fbc84f;
+}
+
+.Cuadrados:nth-child(5) {
+  background-color: #c9edf0;
+}
+
+.Cuadrados:nth-child(5) .Rect {
+  background-color: #b2e2e6;
+}
+
+.Cuadrados:nth-child(5) .Interno {
+  background-color: #a0d9e1;
+}
+
+.Cuadrados:nth-child(6) {
+  background-color: #fda48b;
+}
+
+.Cuadrados:nth-child(6) .Rect {
+  background-color: #fa9074;
+}
+
+.Cuadrados:nth-child(6) .Interno {
+  background-color: #f37d60;
 }
