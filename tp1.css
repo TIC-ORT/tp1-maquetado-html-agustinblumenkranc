@@ -14,7 +14,7 @@ body {
 .CuadradoLinea {
   width: 100vw;
   height: 40vh;
-  background-color: orange;
+  background-color: #fecd72;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@ body {
 .Cuadrado {
   width: 20%;
   height: 80%;
-  background-color: orangered;
+  background-color: #fbc262;
 }
 
 .Lineas {
@@ -40,7 +40,7 @@ body {
 .Linearda {
   width: 50%;
   height: 15%;
-  background-color: orangered;
+  background-color: #f9b547;
 }
 
 .Linea1 {
@@ -52,25 +52,25 @@ body {
 .Linea2 {
   width: 100%;
   height: 5%;
-  background-color: rgb(241, 240, 240);
+  background-color: white;
 }
 
 .Linea3 {
   width: 100%;
   height: 5%;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 
 .Linea4 {
   width: 50%;
   height: 5%;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 
 .Blanco {
   display: grid;
-  grid-template-columns: repeat(3, 17vw);  /* 3 columnas de 17vw de ancho */
-  grid-template-rows: repeat(2, 17vw);     /* 2 filas de 17vw de alto */
+  grid-template-columns: repeat(3, 17vw);
+  grid-template-rows: repeat(2, 17vw);
   gap: 8vw;
   justify-content: center;
 }
@@ -78,7 +78,7 @@ body {
 .Cuadrados {
   width: 100%;
   height: 100%;
-  background-color: #4CAF50;
+  background-color: #bae6ea;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,22 +89,54 @@ body {
 .Interno {
   width: 60%;
   height: 60%;
-  background-color: white;
+  background-color: #a0d9e1;
   justify-content: center;
   display: flex;
   align-items: center;
 }
 
-.Rect{
+.Rect {
   width: 100%;
   height: 20%;
-  background-color: black;
+  background-color: #91d4dc;
   justify-content: flex-start;
 }
 
-.Gris{
-  height: 20vh;
+.Gris {
+  height: 30vh;
   width: 100vw;
-  background-color: grey;
-  
+  background-color: #e6e6e6;
+}
+
+.Columnitas {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Columnas {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.CuadradoSuperior {
+  background-color: #cccccc;
+  height: 5vh;
+  width: 20vw;
+}
+
+.LineaColumna {
+  width: 20vw;
+  height: 1.5vh;
+  background-color: #cccccc;
+}
+
+.LineaColumna3 {
+  width: 15vw;
+  height: 1.5vh;
+  background-color: #cccccc;
+  align-self: center;
 }
