@@ -3,6 +3,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
+  overflow-x: hidden; /* Ocultar barra para ir al costado*/
 }
 
 .Todo {
@@ -19,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 100px;
+  gap: 13vh;
 }
 
 .Cuadrado {
@@ -31,10 +32,10 @@ body {
 .Lineas {
   width: 50%;
   height: 100%;
-  gap: 30px;
+  gap:4.5vh;
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  justify-content: center;
 }
 
 .Linearda {
@@ -106,6 +107,9 @@ body {
   height: 30vh;
   width: 100vw;
   background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Columnitas {
@@ -118,8 +122,6 @@ body {
   display: flex;
   flex-direction: row;
   gap: 100px;
-  align-items: center;
-  justify-content: center;
 }
 
 .CuadradoSuperior {
